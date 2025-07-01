@@ -10,9 +10,10 @@
   max-width: 600px;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 18px rgb(90, 41, 99);
   background: white;
   text-align: center;
+  border: 3px solid rgb(40, 11, 59);
 }
 
 .quote {

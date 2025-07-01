@@ -1,12 +1,55 @@
-# React + Vite
+# 🧠 Random Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal and elegant web app that fetches **stoic quotes** from an API and lets you copy or share them instantly!
 
-Currently, two official plugins are available:
+![screenshot](./src/assets/appScreenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔄 Fetches a new quote with a click
+- 📋 Copy quote to clipboard
+- 🐦 Share quote on Twitter
+- ⚡ API-powered (stoic-quotes.com)
+- 💡 Uses React + useEffect + async/await
+- 🎨 Responsive, clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6)
+- HTML / CSS
+- Stoic Quotes API ([https://stoic-quotes.com/api/quote](https://stoic-quotes.com/api/quote))
+
+---
+
+## 📦 Getting Started
+
+Clone the repo and run the app locally:
+
+```bash
+git clone https://github.com/your-username/quote-generator.git
+cd quote-generator
+npm install
+npm start
+
+---
+
+## 📝 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project — even for commercial purposes — as long as you:
+
+- Include the original copyright
+- Include the license text
+- Do not hold the author liable for any damages
+
+> See the full license in the [LICENSE](LICENSE) file.
+
+
